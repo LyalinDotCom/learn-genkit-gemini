@@ -150,7 +150,7 @@ mkdir -p "$folder_name"
 
 # Copy gemini.md to the new folder
 echo -e "${GREEN}Copying gemini.md to project folder...${NC}"
-cp "$PWD/docs/nodejs/gemini.md" "$folder_name/"
+cp "$PWD/docs/node.js/gemini.md" "$folder_name/"
 
 cd "$folder_name"
 
