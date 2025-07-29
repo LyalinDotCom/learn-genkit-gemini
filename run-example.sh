@@ -53,7 +53,7 @@ if ! command -v gemini &> /dev/null; then
     echo -e "${RED}Error: Gemini CLI is not installed!${NC}"
     echo ""
     echo -e "${YELLOW}To install Gemini CLI, run:${NC}"
-    echo -e "${GREEN}npm install -g @genkit-ai/cli${NC}"
+    echo -e "${GREEN}npm install -g @google/gemini-cli${NC}"
     echo ""
     exit 1
 fi
